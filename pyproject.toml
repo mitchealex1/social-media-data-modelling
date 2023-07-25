@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "social-media-data-modelling"
+version = "0.1.0"
+description = "A project to model personal social media data"
+authors = ["Alex Mitchell <alexjfmitchell@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-postgres = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

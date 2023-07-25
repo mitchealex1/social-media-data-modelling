@@ -1,0 +1,34 @@
+
+version: 2
+
+sources:
+  - name: load
+    tables:
+      - name: messages_inbox
+        columns:
+          - name: file_content
+          - name: load_timestamp
+      - name: messages_message_requests
+        columns:
+          - name: file_content
+          - name: load_timestamp
+      - name: messages_filtered_threads
+        columns:
+          - name: file_content
+          - name: load_timestamp
+      - name: messages_archived_threads
+        columns:
+          - name: file_content
+          - name: load_timestamp
+      - name: friends_and_followers_friends
+        columns:
+          - name: file_content
+          - name: load_timestamp
+      - name: friends_and_followers_friend_requests_sent
+        columns:
+          - name: file_content
+          - name: load_timestamp
+      - name: friends_and_followers_friend_requests_received
+        columns:
+          - name: file_content
+          - name: load_timestamp

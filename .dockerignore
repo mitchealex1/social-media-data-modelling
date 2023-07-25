@@ -1,0 +1,8 @@
+Dockerfile
+.dockerignore
+*.md
+!README.md
+dbt_packages
+logs
+target
+.user.yml
