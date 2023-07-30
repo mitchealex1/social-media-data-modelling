@@ -1,4 +1,4 @@
-social_media_data_modelling:
+social_media:
   outputs:
     default:
       type: postgres
