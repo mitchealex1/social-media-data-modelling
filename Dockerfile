@@ -14,5 +14,7 @@ WORKDIR /usr/social_media_data_modelling
 COPY . .
 RUN poetry install
 
+RUN poetry run dbt deps
+
 ENTRYPOINT [ "poetry", "run", "dbt"]
 CMD ["--help"]
